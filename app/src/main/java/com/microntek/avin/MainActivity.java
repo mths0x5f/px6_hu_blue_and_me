@@ -15,7 +15,7 @@ import android.microntek.CarManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.os.SystemProperties;
+import com.microntek.RkSystemProp;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.DisplayMetrics;
@@ -70,7 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private AudioManager mAudioManager = null;
     private boolean focusGainFlag = false;
     private int mMultiWindowModeW = -1;
-    private boolean hasNaviBar = "true".equals(SystemProperties.get("persist.product.shownavbar"));
+    private boolean hasNaviBar = "true".equals(RkSystemProp.get("persist.product.shownavbar"));
     private boolean mUiModeChange = false;
     private final ContentObserver mUpdateThemeObserver = new UpdateThemeObserver();
     private boolean removeTask = false;
@@ -167,7 +167,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /* JADX INFO: Access modifiers changed from: private */
     public void hideStatusBar() {
         mStatusBarFlag = false;
-        if (SystemProperties.get("ro.product.customer.sub").equals("RM09")) {
+        if (RkSystemProp.get("ro.product.customer.sub").equals("RM09")) {
             this.mBtAv1.setVisibility(8);
             this.mBtAv2.setVisibility(8);
         }
@@ -183,7 +183,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     /* JADX INFO: Access modifiers changed from: private */
     public void resumeStatusBar() {
         mStatusBarFlag = true;
-        if (SystemProperties.get("ro.product.customer.sub").equals("RM09")) {
+        if (RkSystemProp.get("ro.product.customer.sub").equals("RM09")) {
             this.mBtAv1.setVisibility(0);
             this.mBtAv2.setVisibility(0);
         }
@@ -273,10 +273,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         this.mAvin.setOnClickListener(this);
         this.mFile.setOnClickListener(this);
         this.mySharedPreferences = getPreferenct();
-        if (SystemProperties.get("ro.product.customer").equals("AKM") && !SystemProperties.get("ro.product.customer.sub").equals("AKM3")) {
+        if (RkSystemProp.get("ro.product.customer").equals("AKM") && !RkSystemProp.get("ro.product.customer.sub").equals("AKM3")) {
             this.mAkmInfo.setVisibility(0);
         }
-        if (SystemProperties.get("ro.product.customer.sub").equals("RM09")) {
+        if (RkSystemProp.get("ro.product.customer.sub").equals("RM09")) {
             this.mBtAv1.setVisibility(0);
             this.mBtAv2.setVisibility(0);
             CHANNEL = this.mySharedPreferences.getString("channel", "line");
@@ -284,7 +284,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             EXIT_CHANNEL = this.mySharedPreferences.getString("exit_channel", "av_channel_exit=line");
         }
         this.mSurfaceView = (GLFrameSurface) findViewById(C0005R.id.preview_content);
-        if (SystemProperties.get("ro.product.customer.sub").equals("HZC39")) {
+        if (RkSystemProp.get("ro.product.customer.sub").equals("HZC39")) {
             this.mShortcut.setVisibility(0);
             this.mSurfaceView.setBottom(75);
         } else {
@@ -306,7 +306,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         this.mSignalshow = (ImageView) findViewById(C0005R.id.signalshow);
         this.audioOnlyshow = (ImageView) findViewById(C0005R.id.audio_only);
         this.mWarnText = (TextView) findViewById(C0005R.id.warntext);
-        if (getParameters("sta_function=26").equals("1") || "true".equals(SystemProperties.get("ro.product.avinaudioonly"))) {
+        if (getParameters("sta_function=26").equals("1") || "true".equals(RkSystemProp.get("ro.product.avinaudioonly"))) {
             findViewById(C0005R.id.audio_only).setVisibility(0);
         }
         if (getResources().getConfiguration().orientation == 1 && !isInMultiWindowMode()) {
@@ -324,8 +324,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         this.mAudioManager = (AudioManager) getSystemService("audio");
         this.mCarManager = new CarManager();
-        this.mCustomerName = SystemProperties.get("ro.product.customer");
-        this.mCustomerSub = SystemProperties.get("ro.product.customer.sub", "HCT");
+        this.mCustomerName = RkSystemProp.get("ro.product.customer");
+        this.mCustomerSub = RkSystemProp.get("ro.product.customer.sub", "HCT");
         if (!this.hasNaviBar) {
             getWindow().addFlags(256);
             getWindow().clearFlags(65536);

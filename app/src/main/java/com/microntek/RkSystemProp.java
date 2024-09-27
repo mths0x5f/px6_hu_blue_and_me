@@ -11,6 +11,17 @@ public class RkSystemProp {
     private static Method mGetBoolMethod = null;
     private static Method mSetMethod = null;
 
+    public static String get(String key) {
+        init();
+        try {
+            String value = (String) mGetMethod.invoke(mClassType, key);
+            return value;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "";
+        }
+    }
+
     public static String get(String key, String def) {
         init();
         try {
