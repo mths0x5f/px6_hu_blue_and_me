@@ -1,0 +1,74 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA-256-Digest-Manifest: BFcist+15M/3wKgRqVTF0v348MwBcPIA9l5u6UbDO2g=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 9KFzwdP7t8tTPWkwHm+kvX+MyxFMVTtBHxeeGENvKqo=
+
+Name: classes.dex
+SHA-256-Digest: NilBbCUJtP4Od0yO9/LsL0d6JbWZUbH8nv5IUfqQTOw=
+
+Name: res/drawable-nodpi-1280x720-v4/audio_only_bg.png
+SHA-256-Digest: 9Pfx1xdKA5v2QkBfYoqOf8ZJRROTl3Xf00muy0pRJDc=
+
+Name: res/drawable-nodpi-v4/album_bg.png
+SHA-256-Digest: UOHhXIErBMIj+jbOyW0XEdK5euhPdM1k1nnVGEtOSEw=
+
+Name: res/drawable-nodpi-v4/audio_only_bg.png
+SHA-256-Digest: Z6CLJkbkrwrKT5LEjEDYEq1DPi/tgPZqQGOHuHeb/uQ=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_avin.png
+SHA-256-Digest: Mqg6sgDvNSE1PdVF2G/Y8s4y0X2hobcQyxaanoEJ0xw=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_btmusic.png
+SHA-256-Digest: a3g5k/WFkPZ4lyHMCw8S/gWxr+fNa0XAoZoj6HDFttY=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_file.png
+SHA-256-Digest: yCA3fkEkmTNNB+7yS6YYcs2IwdUUOonDug55JtYrqvM=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_icon_bg.png
+SHA-256-Digest: DvjodmvQdDjEEkcyxWUVLd6g4j8UdncG07Meco9do8M=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_music.png
+SHA-256-Digest: NoyUTXsqYRih3ZeqmP4rEsO/FpAwObRRNPnpCLyTu90=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_radio.png
+SHA-256-Digest: +zk6xtWHdwtb0aO5SJAaOHHfesYSh9glInpdrTg6SMY=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_sel.png
+SHA-256-Digest: siHyY5CWxLSvqz/3kn1TNW7Mrrd83ZiDCSPc4NHHVBU=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_video.png
+SHA-256-Digest: WPh283MpsJl40Y6YMDH2pK4WpzGbs3p8+r3fws4Ik2c=
+
+Name: res/drawable-nodpi-v4/ic_avin.png
+SHA-256-Digest: 2RpCgbDgACaDThn32gt95KU/T5fXNhrTT5vtaff+LEI=
+
+Name: res/drawable-nodpi-v4/ico_av1.png
+SHA-256-Digest: CkCeW7SXjUroQnYPsNtGy9gryfenhYHFkja7RD8612U=
+
+Name: res/drawable-nodpi-v4/ico_av2.png
+SHA-256-Digest: 7l3Y0W1Ap7Aevlw4SbdJyspzJ1zJgC15ySZsBGGh6Pw=
+
+Name: res/drawable-nodpi-v4/music_default.png
+SHA-256-Digest: SSATBOQ2woCvflqotP7uqc/yDcMeR/2Qo/S8smT9+Hs=
+
+Name: res/drawable-nodpi-v4/no_signal_a.png
+SHA-256-Digest: nIKCx0ImdZW+jeJsL0pDZrvlFD46iwAc3h7CUO5GdHU=
+
+Name: res/drawable-nodpi-v4/no_signal_hzc.png
+SHA-256-Digest: JalVNTt1nNzlatdX1wj/3pgq6VRF2Y9nCLBpN6mQr44=
+
+Name: res/drawable-nodpi-v4/sel_bar.png
+SHA-256-Digest: uTOGgMD4CNTc4BVTlJ6z7zaf7SvVohMblwVyHTFPKuo=
+
+Name: res/drawable/button_shortcut.xml
+SHA-256-Digest: q/dihJaSvVV4szit/gbgqdhPRPVvcfyDLg+uJqMO7sk=
+
+Name: res/layout/main.xml
+SHA-256-Digest: YEg/EpYA3KdqusiyoyJ5itZDN0aytvfvdIDJUS8vo8s=
+
+Name: resources.arsc
+SHA-256-Digest: YWcu6HLsT9mZHCUKrC0MHjYxz0+OonZf90IJ9LKQIqI=
+

@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Created-By: 11.0.4 (Oracle Corporation)
+
+Name: AndroidManifest.xml
+SHA-256-Digest: LKs9h0aFoiWX+XijAeJn/ij7ZoH08MPC5tZaEccnwJk=
+
+Name: classes.dex
+SHA-256-Digest: fgKna6aNTQg4jwmqLy9SPerJS4788WDI1PsMBWm410c=
+
+Name: res/drawable-nodpi-1280x720-v4/audio_only_bg.png
+SHA-256-Digest: 9zKBhfg9Im4lNczF5y3zfZVAzMoALpMjJIf+s8CUGDI=
+
+Name: res/drawable-nodpi-v4/album_bg.png
+SHA-256-Digest: Atbm0ebo/1jMfNJYC5xO7POFHYJCdqzf26lYGXTMbZs=
+
+Name: res/drawable-nodpi-v4/audio_only_bg.png
+SHA-256-Digest: 9zKBhfg9Im4lNczF5y3zfZVAzMoALpMjJIf+s8CUGDI=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_avin.png
+SHA-256-Digest: pszhE5rzMb4JUsIeJM6Ywr2vvQaRi+aEXfb3NUU4L7g=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_btmusic.png
+SHA-256-Digest: Fj5sqdoWpDkqe82/k/p48kLz+dggYg5gh09GGu1oUOM=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_file.png
+SHA-256-Digest: 6Gy9UntjwerasR6rXsbNZGmALIr8y+pbnnIkFpn9MB0=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_icon_bg.png
+SHA-256-Digest: 3Z8vFj5F5SNtaWHPhk91vq+cOGmNuvtwvpdd7DPrI9U=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_music.png
+SHA-256-Digest: hrEQJpTvNGRwkamg+SrfdZ4yPI+FZ5YQWB7cvxH9gVg=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_radio.png
+SHA-256-Digest: dumjHpwWyfT1bHJc+j/+s9VGI2ijbXpTxfukGVhmrBY=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_sel.png
+SHA-256-Digest: vdrBmfMMaX5n+zkS/iKsiqyXD2pS1oapgEwsDpcc8+E=
+
+Name: res/drawable-nodpi-v4/hzc39_shortcut_video.png
+SHA-256-Digest: qq69wbAOgY3jJUtwDfjm+9DpxP7gvzco6+2WTqwiOA4=
+
+Name: res/drawable-nodpi-v4/ic_avin.png
+SHA-256-Digest: yLN2A6xi9W9mmRiPQrbMXmmhwVu5jIxCC+zC4ptembI=
+
+Name: res/drawable-nodpi-v4/ico_av1.png
+SHA-256-Digest: M5GPPmVqfISenNfI4p0oKfUGtiAbqBenF9lzAvRBaVE=
+
+Name: res/drawable-nodpi-v4/ico_av2.png
+SHA-256-Digest: sYuF8oA3cO2JDxLckP/1mD6Ri0bnDNXiHd2uORX9Zoo=
+
+Name: res/drawable-nodpi-v4/music_default.png
+SHA-256-Digest: 0rwWqfqmfWY2BqQnYXEez/EB3GqPd8p3BBRwG+q5tf0=
+
+Name: res/drawable-nodpi-v4/no_signal_a.png
+SHA-256-Digest: QXG4Xcw2YjYtm4rczt80VeDBzhCf+AzwoFoTrr+OLDQ=
+
+Name: res/drawable-nodpi-v4/no_signal_hzc.png
+SHA-256-Digest: +tmOhMKCriNIvtioUqYQa00i7gwvN7WoQtiXv2jSTXI=
+
+Name: res/drawable-nodpi-v4/sel_bar.png
+SHA-256-Digest: ijratbDtz3RxzuR9QzLJlPrsoV5MJFeN2JAMFS88Ppg=
+
+Name: res/drawable/button_shortcut.xml
+SHA-256-Digest: hxvDikKxGCbW8yi/aqfFhPKu9nUGbWjn4BUnKwbS22o=
+
+Name: res/layout/main.xml
+SHA-256-Digest: LTD12Bg6VmyQE/wPRU1LVTPdvTPznXJ9DWpE0oKjTK4=
+
+Name: resources.arsc
+SHA-256-Digest: 3ZbkKC2WtflVskvH/+plVJaEtSJ+R7fGErzf++r4cMc=
+

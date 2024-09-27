@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Entrada AV</string>
+    <string name="ok">Ok</string>
+    <string name="savewarn">Não é permitido assistir enquanto dirige!</string>
+</resources>

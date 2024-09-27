@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Entrada AV</string>
+    <string name="ok">Vale</string>
+    <string name="savewarn">No se puede ver el video al conducir</string>
+</resources>
