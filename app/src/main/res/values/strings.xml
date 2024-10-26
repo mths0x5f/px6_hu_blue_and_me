@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AVIN</string>
-    <string name="ok">OK</string>
-    <string name="savewarn">Video disabled while driving for safety !</string>
+    <string name="app_name">Blue&#38;Me</string>
+    <string name="blue_and_me_logo">Blue and me logo</string>
 </resources>

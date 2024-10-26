@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">AV-вход</string>
-    <string name="ok">Принять</string>
-    <string name="savewarn">Просмотр видео во время движения запрещен!</string>
-</resources>

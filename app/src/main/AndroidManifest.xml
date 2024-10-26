@@ -2,33 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:versionCode="1"
     android:versionName="1.0"
-    android:compileSdkVersion="30"
-    android:compileSdkVersionCodename="11"
-    package="com.microntek.avin"
-    platformBuildVersionCode="30"
-    platformBuildVersionName="11">
-    <uses-sdk
-        android:minSdkVersion="30"
-        android:targetSdkVersion="26"/>
-    <uses-permission android:name="android.permission.GET_TASKS"/>
+    package="com.microntek.avin">
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <application
-        android:theme="@android:style/Theme.Holo.NoActionBar"
         android:label="@string/app_name"
-        android:icon="@drawable/ic_avin"
-        android:allowBackup="true"
-        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
         android:extractNativeLibs="false"
         android:resizeableActivity="true"
         android:supportsPictureInPicture="true"
         android:usesNonSdkApi="true">
         <activity
-            android:theme="@style/AvinTheme"
-            android:label="@string/app_name"
             android:name="com.microntek.avin.MainActivity"
+            android:configChanges="uiMode"
             android:launchMode="singleTask"
-            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
-            android:hardwareAccelerated="true">
+            android:theme="@style/Theme"
+            android:hardwareAccelerated="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
