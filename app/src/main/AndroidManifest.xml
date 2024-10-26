@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:versionCode="1"
     android:versionName="1.0"
-    package="com.microntek.avin">
+    package="br.dev.mths.blueandme">
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <application
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         android:supportsPictureInPicture="true"
         android:usesNonSdkApi="true">
         <activity
-            android:name="com.microntek.avin.MainActivity"
+            android:name=".MainActivity"
             android:configChanges="uiMode"
             android:launchMode="singleTask"
             android:theme="@style/Theme"

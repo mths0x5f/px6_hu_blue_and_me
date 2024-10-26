@@ -1,4 +1,4 @@
-package com.microntek.avin;
+package br.dev.mths.blueandme;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
